@@ -1,13 +1,13 @@
 #iCIPT2 results
 
-After extraction, The all_output folder contains iCIPT2 results for core‑excited states and ground state of diatomic molecules, plus ORCA fitted potential energy curves.
+After extraction, the 'all_output' folder contains iCIPT2 results for core‑excited states and ground state of diatomic molecules, plus ORCA fitted potential energy curves.
 
 
 ## Structure
 
 - **`CO+C`, `CO+O`, `COC`, `COO`, `N2`, `N2+`, `NH+`, `NO+N`, `NO+O`, `NON`, `NOO`**  
   Core‑excited state results for the specified core‑hole (e.g., `CO+C` = C 1s excitation in CO+).  
-  Each holds subfolders for different selection thresholds and VEE:
+  Each contains subfolders for different selection thresholds and VEE:
   - `1.0E-5/` : *Cmin* = 1.0×10⁻⁵  
   - `2.5E-5/` : *Cmin* = 2.5×10⁻⁵  
   - `5.0E-5/` : *Cmin* = 5.0×10⁻⁵  
